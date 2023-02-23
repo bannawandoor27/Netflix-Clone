@@ -10,7 +10,11 @@ function App() {
     <div className="App">
      <NavBar/>
      <Banner/>
-     <RowPost/>
+     <RowPost title='Originals'/>
+     <RowPost title='Action' isSmall/>
+     <RowPost title='Comedy' isSmall/>
+     <RowPost title='Horror' isSmall/>
+     <RowPost title='Documentary' isSmall/>
     </div>
   )
 }
